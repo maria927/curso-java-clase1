@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ejercicionro1;
 
 import automotores.Carro;
@@ -25,7 +20,7 @@ public class EjercicioNro1 {
         //******************PARTE 1 ***********************//
         
         Scanner scanner = new Scanner(System.in);
-        //String nombre= "Maria Isabel";
+        //String nombre= "Maria IsabelA";
 
         System.out.print("Ingrese su nombre ");
         String nombre = scanner.next();
@@ -102,7 +97,7 @@ public class EjercicioNro1 {
     }
 
     /**
-     * Función para dividir dos números
+     * Función para dividir número
      */
     private static double dividir(double numeroUno, double numeroDos) {
         double resultadoDivision = numeroUno / numeroDos;
@@ -117,3 +112,4 @@ public class EjercicioNro1 {
     }
 
 }
+
