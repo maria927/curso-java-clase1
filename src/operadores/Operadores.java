@@ -43,8 +43,33 @@ public class Operadores {
        System.out.println("El valor de boolean es: "+estaVivo);
        
        
+       //Sentencia condicional if
+       if (estaVivo == true) {
+           System.out.println("Está vivo");
+       }
+       else
+       {
+           System.out.println("No está vivo");
+       }
        
 
+       //Sentencia condicional switch
+       
+       String inicialNombre = "A";
+       switch(inicialNombre)
+       { 
+           case "A":
+               System.out.println("Caso A"); 
+           break;
+           
+           case "B":
+               System.out.println("Caso B"); 
+           break;
+           
+           default:
+               System.out.println("Caso por defecto");
+           break;
+       }
    }
     
 }
