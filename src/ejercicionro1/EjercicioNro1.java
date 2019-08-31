@@ -102,7 +102,7 @@ public class EjercicioNro1 {
     }
 
     /**
-     * Función para dividir número
+     * Función para dividir dos números
      */
     private static double dividir(double numeroUno, double numeroDos) {
         double resultadoDivision = numeroUno / numeroDos;
