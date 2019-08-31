@@ -20,7 +20,7 @@ public class EjercicioNro1 {
         //******************PARTE 1 ***********************//
         
         Scanner scanner = new Scanner(System.in);
-        //String nombre= "Maria Isabel";
+        //String nombre= "Maria IsabelA";
 
         System.out.print("Ingrese su nombre ");
         String nombre = scanner.next();
